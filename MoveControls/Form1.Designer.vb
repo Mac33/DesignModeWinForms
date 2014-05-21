@@ -184,7 +184,7 @@ Namespace WindowsApplication1
             '
             Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-            Me.ClientSize = New System.Drawing.Size(710, 601)
+            Me.ClientSize = New System.Drawing.Size(717, 492)
             Me.Controls.Add(Me.Panel2)
             Me.Controls.Add(Me.CheckBox2)
             Me.Controls.Add(Me.Panel1)

@@ -15,6 +15,9 @@ Namespace WindowsApplication1
         Inherits Form
 
 
+        ''' <summary>
+        ''' Tempova tabulka pre grid
+        ''' </summary>
         Private Function CreateTable(ByVal RowCount As Integer) As DataTable
             Dim tbl As New DataTable()
             tbl.Columns.Add("Name", GetType(String))
@@ -77,7 +80,7 @@ Namespace WindowsApplication1
             Me.Button1.Select()
         End Sub
 
-        
+
 
         Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
 
